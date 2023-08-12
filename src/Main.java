@@ -14,7 +14,19 @@ public class Main {
 
         ///////////////////////////////////////////
         // Sorting
+        Sorting sort = new Sorting();
+        int[] array = {64, 34, 25, 12, 22, 11, 90};
 
+        //Bubble sort
+//        int[] sorted_arr = sort.bubbleSort(array);
+//        for(int i: sorted_arr)
+//            System.out.println(i);
+
+        //selection sort
+//        int[] sorted_arr = sort.selectionSort(array);
+//        for (int i : sorted_arr)
+//            System.out.println(i);
+        
 
     }
 }
